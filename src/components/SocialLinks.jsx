@@ -23,7 +23,7 @@ const SocialLinks = () => {
                     GitHub<FaGithub size={30}/>
                 </>
             ),
-            href: 'https://www.linkedin.com/in/eballes-marlon-u-87103a278',
+            href: 'https://github.com/marlonely',
         },
         {
             id: 3,
@@ -32,7 +32,7 @@ const SocialLinks = () => {
                     Email<HiOutlineMail size={30}/>
                 </>
             ),
-            href: 'mailto:foo@gmail.com',
+            href: 'mailto:marlon.union.eballes@gmail.com',
         },
         {
             id: 4,

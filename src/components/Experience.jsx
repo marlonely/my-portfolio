@@ -2,11 +2,17 @@ import React from 'react';
 import html from '../assets/html.png';
 import css from '../assets/css.png';
 import javascript from '../assets/javascript.png';
-import tailwind from '../assets/tailwind.png';
-import react from '../assets/react.png';
-import node from '../assets/node.png';
-import github from '../assets/github.png';
-
+// import tailwind from '../assets/tailwind.png';
+// import react from '../assets/react.png';
+import php from '../assets/php1.png';
+// import github from '../assets/github.png';
+import photoshop from '../assets/photoshop.png';
+import mysql from '../assets/mysql.png';
+import python from '../assets/python.png';
+// import ubuntu from '../assets/ubuntu.png';
+// import canva from '../assets/canva.png';
+// import figma from '../assets/figma.png';
+import premiere from '../assets/premiere.png';
 
 const Experience = () => {
 
@@ -31,29 +37,71 @@ const Experience = () => {
             style: 'shadow-yellow-500'
         },
         {
-            id: 4,
-            src: tailwind,
-            title: 'Tailwind',
-            style: 'shadow-blue-500'
-        },
-        {
-            id: 5,
-            src: react,
-            title: 'React',
-            style: 'shadow-blue-400'
+            id: 9,
+            src: mysql,
+            title: 'MySQL',
+            style: 'shadow-orange-500',
         },
         {
             id: 6,
-            src: node,
-            title: 'Node',
-            style: 'shadow-green-500'
+            src: php,
+            title: 'PHP',
+            style: 'shadow-violet-500'
+        },
+        // {
+        //     id: 7,
+        //     src: github,
+        //     title: 'GitHub',
+        //     style: 'shadow-violet-500',
+        // },
+        {
+            id: 8,
+            src: photoshop,
+            title: 'Adobe Photoshop',
+            style: 'shadow-blue-500',
         },
         {
-            id: 7,
-            src: github,
-            title: 'GitHub',
-            style: 'shadow-violet-500',
+            id: 14,
+            src: premiere,
+            title: 'Adobe Premiere Pro',
+            style: 'shadow-blue-700',
         },
+        // {
+        //     id: 4,
+        //     src: tailwind,
+        //     title: 'Tailwind',
+        //     style: 'shadow-blue-500'
+        // },
+        {
+            id: 10,
+            src: python,
+            title: 'Python',
+            style: 'shadow-yellow-500',
+        },
+        // {
+        //     id: 5,
+        //     src: react,
+        //     title: 'React',
+        //     style: 'shadow-blue-400'
+        // },
+        // {
+        //     id: 12,
+        //     src: canva,
+        //     title: 'Canva',
+        //     style: 'shadow-violet-400',
+        // },
+        // {
+        //     id: 13,
+        //     src: figma,
+        //     title: 'Figma',
+        //     style: 'shadow-orange-300',
+        // },
+        // {
+        //     id: 11,
+        //     src: ubuntu,
+        //     title: 'Ubuntu',
+        //     style: 'shadow-orange-500',
+        // },
         
     ]
 

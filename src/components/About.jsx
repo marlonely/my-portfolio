@@ -10,15 +10,27 @@ const About = () => {
                 <p className='text-4xl font-bold inline border-b-4 border-gray-500'>About</p>
             </div>
 
-            <p className='text-xl mt-20 '>
-            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. 
+            <p className='text-xl mt-20'>
+              Welcome to my portfolio! I'm a passionate web developer with a focus on backend development and database management. My journey includes experiences as a technology intern at Cloudwalk Digital Inc., where I handled API testing and technical support. In our capstone project, I developed backend structures and integrated APIs like OpenCage, Maps, and Google, along with implementing the Naive Bayes Algorithm for machine learning. I love crafting impactful websites that combine creativity and functionality. Let's explore my projects and skills together as I continue to learn and innovate in the dynamic world of web development!
+            </p>
+
+            {/* <br />
+
+            <p className='text-xl'>
+              I love building websites, especially on the backend development side, but I can also do frontend work. I am primarily focused on developing the backend structure of a website and managing databases.
             </p>
 
             <br />
 
             <p className='text-xl'>
-            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. 
+              I have experience as a technology intern at Cloudwalk Digital Inc., where most of my tasks involve providing technical support, creating new tenant accounts, and testing the company's APIs using pytest and schemathesis.
             </p>
+
+            <br />
+
+            <p className='text-xl'>
+              In our capstone project, I am assigned as a backend developer. My task is to develop most of the backend structure of our website, implementing APIs like OpenCage API, Maps API, and Google API. Additionally, I am responsible for the machine learning language that we implement in our system using Naive Bayes Algorithm.
+            </p> */}
         </div>
     </div>
   )

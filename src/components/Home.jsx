@@ -1,5 +1,5 @@
 import React from 'react';
-import HeroImage from '../assets/heroImage.png';
+import HeroImage from '../assets/myImage.png';
 import { MdArrowRightAlt } from 'react-icons/md';
 import { Link } from 'react-scroll'
 
@@ -14,12 +14,12 @@ const Home = () => {
                     I'm a Web Developer
                 </h2>
                 <p className='text-gray-500 py-4 max-w-md'>
-                    I am a fresh graduate from Quezon City University. Currently, I am seeking for a job opportunity that can enhance my skills in backend development. I have experience building website using HTML, CSS, JavaScript, Tailwind, React, PHP.
+                    I am a fresh graduate seeking for a job opportunity that can enhance my skills in web development. I have experience building website using HTML, CSS, JavaScript, PHP, Wix and WordPress.
                 </p>
                 
                     <div>
-                        <Link to='portfolio' smooth duration={500} className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>
-                            Portfolio
+                        <Link to='projects' smooth duration={500} className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>
+                            Projects
                             <span className='group-hover:rotate-90 duration-300'>
                                 <MdArrowRightAlt size={25} className='ml-1'/>
                             </span>
